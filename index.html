@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rock Paper Scissors</title>
+     <meta charset="utf-8">  
+        <title>Rock Paper Scissors</title>
+             <!-- BootStrap Link -->
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+             <!-- Css Link -->
+             <link rel="stylesheet" href="assets/css/style.css">
+             <!-- Google Font Link -->
+             <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+             <!-- Javascript Link -->
   </head>
     <body>
      <header>
@@ -9,28 +17,43 @@
      </header>
 
      <div class="score-board">
-       <div id="player1" class="badge">Player 1</div> 
-       <div id="player2" class="badge">Player 2</div>
-       <span id="player1-score">0</span>:<span id="player2-score">0</span>
+             <div id="player1" class="badge">Player 1</div> 
+             <div id="player2" class="badge">Player 2</div>
+             <span id="player1-score">0</span>:<span id="player2-score">0</span>
      </div>
 
      <div class="results">
-        <p>Paper covers Rock!! You Win!!</p>
+             <p>Paper covers Rock!! You Win!!</p>
      </div>
 
-    <div class="choices">
-      <div class="choice" id="r">
-          <img src="images/rock_trans.png" alt="red rock">
-    </div>
-    <div class="choice" id="p">
-          <img src="images/paper_trans.png" alt="yellow paper">
-    </div>
+     <div class="choices">
+             <div class="choice" id="r">
+             <img src="assets/images/rock_trans.png" alt="red rock" width="350px height:20px">
+     </div>
+     
+     <div class="choice" id="p">
+             <img src="assets/images/paper_trans.png" alt="yellow paper" width="350px height:20px">
+     </div>
       <div class="choice" id="s">
-          <img src="images/scissors_trans.png" alt="green scissors">
+             <img src="assets/images/scissors_trans.png" alt="green scissors" width="350px height:20px">
       </div>
-    </div>
+     <div class="wrapper">
+             <div class="main">
+                 <ul  id="chat">
+                     <li>Hello</li>
+                 </ul>
+      <div class="chat-controls">
+            <form id="chat-form">
+                <input id="chat-input"/>
+                <button>Send</button>    
+            </form>
+      </div>
+     </div>
 
-    <p id="action-Message">Choose Wisely</p>
+     <p id="action-Message">Choose Wisely</p>
+     
+    
+     <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 
 
